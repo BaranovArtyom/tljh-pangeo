@@ -5,7 +5,6 @@ from tljh.hooks import hookimpl
 def tljh_extra_user_conda_packages():
     # FIXME: specify versions here.
     return [
-        'xarray',
     ]
 
 
