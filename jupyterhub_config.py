@@ -6,7 +6,7 @@
 # from jupyterhub.auth import DummyAuthenticator
 # from tljh.configurer import apply_config, load_config
 # # from tljh_pangeo import tljh_custom_jupyterhub_config
-# from . import tljh_pangeo
+# # from . import tljh_pangeo
 # import sys
 
 # TLJH_R2D_ADMIN_SCOPE = "custom:tljh_pangeo:admin"
