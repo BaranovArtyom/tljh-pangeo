@@ -102,3 +102,6 @@ venv.bak/
 
 # mypy
 .mypy_cache/
+jupyterhub_cookie_secret
+jupyterhub-proxy.pid
+jupyterhub.sqlite
