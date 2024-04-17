@@ -6,7 +6,7 @@ and overrides some of the default values from the plugin.
 from jupyterhub.auth import DummyAuthenticator
 from tljh.configurer import apply_config, load_config
 # from tljh_pangeo import tljh_custom_jupyterhub_config
-# from . import tljh_pangeo
+from . import tljh_pangeo
 import sys
 
 TLJH_R2D_ADMIN_SCOPE = "custom:tljh_pangeo:admin"
@@ -60,7 +60,7 @@ c.JupyterHub.custom_scopes = {
 c.JupyterHub.load_roles = [
     {
         "description": "Role for tljh_pangeo service",
-        "name": "tljh-repo2docker-service",
+        "name": "tljh-pangeo-service",
         "scopes": ["read:users", "read:roles:users", "admin:servers"],
         "services": ["tljh_pangeo"],
     },
